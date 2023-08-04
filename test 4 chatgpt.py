@@ -8,9 +8,10 @@ from aiogram import Bot, Dispatcher, types
 BOT_TOKEN = '6145169134:AAF39yuQRrF8q8xWX0V3cQrrEOuFMBB28GQ'
 
 # Construct the full file path using os.path.join
-file_dir = r"C:\Users\budag\OneDrive\Рабочий стол\Phone Shop"
+#file_dir = r"C:\Users\budag\OneDrive\Рабочий стол\Phone Shop"
 file_name = "Product List.xlsx"
-EXCEL_FILE_PATH = os.path.join(file_dir, file_name)
+#EXCEL_FILE_PATH = os.path.join(file_dir, file_name)
+EXCEL_FILE_PATH = os.path.join(file_name)
 
 # Create bot and dispatcher instances
 bot = Bot(token=BOT_TOKEN)
