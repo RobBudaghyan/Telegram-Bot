@@ -57,6 +57,7 @@ async def select_product_type(message: types.Message):
              ::-1]  # Get unique brand names and reverse the list
     keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
     keyboard.add(*brands)
+    ##
 
     await message.answer("Please select a brand:", reply_markup=keyboard)
 
